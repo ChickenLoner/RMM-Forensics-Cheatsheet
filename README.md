@@ -5,6 +5,8 @@ Made by [@Chicken0248](https://chickenloner.github.io/)
 ## Overview
 This cheat sheet summarizes key forensic artifacts related to AnyDesk usage on Windows systems, focusing on installation, connections, authentication methods, file transfer and chat log.
 
+This cheat sheet was made alongside [Deep dive into AnyDesk Investigation & Forensics on Windows](https://medium.com/@chaoskist/deep-dive-into-anydesk-investigation-forensics-on-windows-24dc531bcc78) blog so give it a read to understand whole context
+
 ---
 
 ## Key Forensic Artifacts
