@@ -38,10 +38,11 @@ This cheat sheet was made alongside [Deep dive into AnyDesk Investigation & Fore
 | Identify file transfer activity | File transfer events | Look for `file_transfer_trace.txt` file in `C:\ProgramData\AnyDesk\` and `C:\Users\<username>\AppData\Roaming\AnyDesk\` |
 | | Upload to local (appear as download) event in AnyDesk log file | Look for `app.local_file_transfer - Download` in `C:\Users\<username>\AppData\Roaming\AnyDesk\ad.trace` or `C:\ProgramData\AnyDesk\ad_svc.trace` |
 | | Download from local (appear as upload) events in AnyDesk log file | Look for `app.prepare_task - Preparing files in` in `C:\Users\<username>\AppData\Roaming\AnyDesk\ad.trace` or `C:\ProgramData\AnyDesk\ad_svc.trace` | 
-| | Download from local (appear as upload) events in AnyDesk log file | Look for `app.local_file_transfer - Preparation of` in `C:\Users\<username>\AppData\Roaming\AnyDesk\ad.trace` or `C:\ProgramData\AnyDesk\ad_svc.trace` | 
+| | | Look for `app.local_file_transfer - Preparation of` in `C:\Users\<username>\AppData\Roaming\AnyDesk\ad.trace` or `C:\ProgramData\AnyDesk\ad_svc.trace` | 
 | | Delete file from local via file manager events in AnyDesk log file | Look for `app.deleter` in `C:\Users\<username>\AppData\Roaming\AnyDesk\ad.trace` or `C:\ProgramData\AnyDesk\ad_svc.trace` | 
-| Identify chat usage | Chat messages exchanged | Chat log is named after remote AnyDesk ID in `C:\Users\<username>\AppData\Roaming\AnyDesk\chat` folder |
-| Identify persistence via unattended access | Setup password for unattended access | Look for `--set-password` as an argument in `Sysmon` (Event ID **1**) and `Security.evtx` (Event ID **4688**) |
+| Identify chat usage | Chat log file creation | Chat log is named after remote AnyDesk ID in `C:\Users\<username>\AppData\Roaming\AnyDesk\chat` folder |
+| Identify persistence via unattended access | Setup password for unattended access in command line | Look for `--set-password` as an argument in `Sysmon` (Event ID **1**) and `Security.evtx` (Event ID **4688**) |
+| | | Look for `--set-password` in `C:\Users\<username>\AppData\Roaming\AnyDesk\ad.trace` | 
 | | Unattended access events in AnyDesk log file | Look for `Authenticated with correct passphrase of profile '_unattended_access'` in `C:\Users\<username>\AppData\Roaming\AnyDesk\ad.trace` or `C:\ProgramData\AnyDesk\ad_svc.trace` |
 
 ---
