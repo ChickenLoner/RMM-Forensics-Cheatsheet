@@ -58,3 +58,5 @@ This cheat sheet was made alongside [Deep dive into AnyDesk Investigation & Fore
 - https://www.cybertriage.com/blog/dfir-next-steps-suspicious-anydesk-use/
 - https://www.thedfirspot.com/post/anydesk-investigating-threat-actors-favorite-tool
 - https://jsac.jpcert.or.jp/archive/2023/pdf/JSAC2023_1_1_yamashige-nakatani-tanaka_en.pdf
+- https://github.com/mthcht/awesome-lists/tree/79ced75eebe53bcabf1235b3c17eb11788875482/Lists/RMM/anydesk
+- https://lolrmm.io/tools/anydesk
