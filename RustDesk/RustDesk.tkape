@@ -1,0 +1,17 @@
+Description: RustDesk artifacts
+Author: Warawut Manosong (Chicken0248)
+Version: 1.0
+Id: a45dc40f-953b-4206-ab0b-3156f939d3fc
+RecreateDirectories: true
+Targets:
+    -
+        Name: RustDesk user logs
+        Category: Remote Access
+        Path: C:\Users\%user%\AppData\Roaming\rustdesk
+        Recursive: true
+    -
+        Name: RustDesk service logs
+        Category: Remote Access
+        Path: C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\rustdesk
+        Recursive: true
+
