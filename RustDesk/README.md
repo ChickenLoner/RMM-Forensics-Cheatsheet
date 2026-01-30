@@ -31,7 +31,7 @@ This cheat sheet was made alongside [Deep dive into RustDesk RMM Investigation &
 | Identify remote IP address | RustDesk Access Log File | Look for `Connection opened from` in `C:\Users\<username>\AppData\Roaming\RustDesk\log\rustdesk_rCURRENT.log`  |
 | Identify file transfer activity (without file manager) | remote -> end device event in RustDesk log file | Look for `client_file_contents_request` and `server_file_contents_response` in `C:\Users\<username>\AppData\Roaming\RustDesk\log\cm\rustdesk_rCURRENT.log`|
 | | end -> remote device event in RustDesk log file | Look for `server_file_content_request` and `client_file_content_response` in `C:\Users\<username>\AppData\Roaming\RustDesk\log\cm\rustdesk_rCURRENT.log` | 
-| Identify file transfer activity (with file manager) | remote -> end device event in RustDesk log file |  Look for `new write File:` in `C:\Users\<username>\AppData\Roaming\RustDesk\log\rustdesk_rCURRENT.log`|
+| Identify file transfer activity (with file manager) | remote -> end device event in RustDesk log file |  Look for `new write File:` in `C:\Users\<username>\AppData\Roaming\RustDesk\log\cm\rustdesk_rCURRENT.log`|
 | | end -> remote device event in RustDesk log file | Look for `new read File:` in `C:\Users\<username>\AppData\Roaming\RustDesk\log\rustdesk_rCURRENT.log` | 
 | Identify persistence via unattended access | Password argument in command line | Look for `--password` as an argument in `Sysmon` (Event ID **1**) and `Security.evtx` (Event ID **4688**) |
 | | Password setup log in Access Log file | Look for `permanent-password updated` in `C:\Windows\ServiceProfiles\LocalService\AppData\Roaming\RustDesk\log\server\RustDesk_rCurrent.log` |
