@@ -1,15 +1,16 @@
 # AnyDesk Forensics Cheat Sheet
+[![Made by Chicken0248](https://img.shields.io/badge/Made%20by-Chicken0248-blue)](https://chickenloner.github.io/)
+[![RMM](https://img.shields.io/badge/RMM-Forensics)](#)
+[![AnyDesk](https://img.shields.io/badge/AnyDesk-forensics)](#)
 
-Made by [@Chicken0248](https://chickenloner.github.io/)
-
-## Overview
+## 📋 Overview
 This cheat sheet summarizes key forensic artifacts related to AnyDesk usage on Windows systems, focusing on installation, connections, authentication methods, file transfer and chat log.
 
 This cheat sheet was made alongside [Deep dive into AnyDesk Investigation & Forensics on Windows](https://medium.com/@chaoskist/deep-dive-into-anydesk-investigation-forensics-on-windows-24dc531bcc78) blog so give it a read to understand whole context
 
 ---
 
-## Key Forensic Artifacts
+## 🔍 Key Forensic Artifacts
 
 | Goal | What to Look For | Where to Look |
 |----|----|----|
@@ -48,7 +49,7 @@ This cheat sheet was made alongside [Deep dive into AnyDesk Investigation & Fore
 
 ---
 
-## Resources
+## 📚 Resources
 - https://www.inversecos.com/2021/02/forensic-analysis-of-anydesk-logs.html
 - https://medium.com/@nandakumarp/anydesk-forensics-63b43200f8ae
 - https://medium.com/@tylerbrozek/anydesk-forensics-anydesk-log-analysis-b77ea37b90f1
