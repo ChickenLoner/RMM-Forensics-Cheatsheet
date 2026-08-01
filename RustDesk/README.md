@@ -1,12 +1,12 @@
 # RustDesk Forensics Cheat Sheet
-[![Made by Chicken0248](https://img.shields.io/badge/Made%20by-Chicken0248-blue)](https://chickenloner.github.io/)
+[![Made by Chicken0248](https://img.shields.io/badge/Made%20by-Chicken0248-blue)](https://chicken0248.fyi/)
 [![RMM](https://img.shields.io/badge/RMM-Forensics)](#)
 [![RustDesk](https://img.shields.io/badge/RustDesk-forensics)](https://rustdesk.com/)
 
 ## 📋 Overview
 This cheat sheet summarizes key forensic artifacts related to RustDesk usage on Windows systems, focusing on installation, connections, file transfer, and how RustDesk stores password and its ID in configuration file.
 
-This cheat sheet was made alongside [Deep dive into RustDesk RMM Investigation & Forensics on Windows](https://medium.com/@chaoskist/deep-dive-into-rustdesk-rmm-investigation-forensics-on-windows-6d8ba816a11e) blog so give it a read to understand whole context
+This cheat sheet was made alongside [Deep dive into RustDesk RMM Investigation & Forensics on Windows](https://chicken0248.fyi/research/rustdesk-forensics-windows/index.html) blog so give it a read to understand whole context
 
 ---
 
